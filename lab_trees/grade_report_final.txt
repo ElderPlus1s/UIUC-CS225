@@ -1,0 +1,97 @@
+Grading r25489 by nwang16 committed on Wed Mar  1 12:02:40 CST 2017
+Monad Autograder
+Testing lab_trees at 2017-03-06 00:17:31
+
+"I can calculate the motions of the heavenly bodies, but not the madness of people." ~ Isaac Newton
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_isOrdered  . [33 pts] - FAILED: unit_tests.cpp:49: Assertion (tree2.isOrdered() == true) failed
+test_mirror . . . [33 pts] - FAILED: Incorrect Terminal Output
+test_printPaths . [34 pts] - FAILED: Incorrect Terminal Output
+test_sumDistances [25 pts] - FAILED: unit_tests.cpp:174: [tree.sumDistances() => -1] != [19 => 19]
+
+
+Total score...
+================================================================
+TOTAL SCORE: 0
+
+
+
+Detailed test output...
+================================================================
+----------------------------------------------------------------
+test_isOrdered [33 points]
+Result: FAILED: unit_tests.cpp:49: Assertion (tree2.isOrdered() == true) failed
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+                                                ______________ 6 ______________                                                  
+                                 ______________/                               \______________                                   
+                               0 ______                                                 ______ 7                                 
+                                       \______                                   ______/                                         
+                                            __ 3 __                            4 __                                              
+                                         __/       \__                             \__                                           
+                                       5               1                               9                                         
+                                         \                                                                                       
+                                           8                                                                                     
+                                            \                                                                                    
+                                             2                                                                                   
+                                                ______________ 1 ______________                                                  
+                                 ______________/                               \______________                                   
+                               0                                                        ______ 7 ______                          
+                                                                                 ______/               \______                   
+                                                                            __ 6                               8 __              
+                                                                         __/                                       \__           
+                                                                       3                                               9         
+                                                                     /   \                                                       
+                                                                   2       5                                                     
+                                                                          /                                                      
+                                                                         4                                                       
+
+----------------------------------------------------------------
+test_mirror [33 points]
+Result: FAILED: Incorrect Terminal Output
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+            __ 5 __              
+         __/       \__           
+       3               7         
+     /   \           /   \       
+   1       4       6       8     
+  / \                       \    
+ 0   2                       9   
+
+----------------------------------------------------------------
+test_printPaths [34 points]
+Result: FAILED: Incorrect Terminal Output
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+test_sumDistances [25 points]
+Result: FAILED: unit_tests.cpp:174: [tree.sumDistances() => -1] != [19 => 19]
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+            __ 5 __              
+         __/       \__           
+       3               7         
+     /   \           /   \       
+   1       4       6       8     
+  / \                       \    
+ 0   2                       9   
+
+
+----------------------------------------------------------------
+Total score...
+================================================================
+TOTAL SCORE: 0
+

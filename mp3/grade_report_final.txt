@@ -1,0 +1,587 @@
+Grading r22440 by enx-cs225autograder committed on Fri Feb 24 02:40:43 CST 2017
+Monad Autograder
+Testing mp3 at 2017-02-25 00:59:52
+
+"In the absence of our leader, I'm assuming control." ~ Kyle Johnson
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+testInsertFront  . . . . . . . . [2 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testInsertBack . . . . . . . . . [2 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testDestructor10 (asan)  . . . . [3 pts]  - FAILED: Memory errors detected by ASAN
+testDestructor37 (asan)  . . . . [3 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testReverse20_size . . . . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testReverse20_forward  . . . . . [1 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testReverse20_backward . . . . . [1 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testReverse37_size . . . . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testReverse37_forward  . . . . . [1 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testReverse37_backward . . . . . [1 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testReverseEmpty (asan)  . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testReverse20_memory (asan)  . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testReverseNth20_2_size  . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testReverseNth20_2_forward . . . [1 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testReverseNth20_2_backward  . . [1 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testReverseNth37_4_size  . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testReverseNth37_4_forward . . . [1 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testReverseNth37_4_backward  . . [1 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testReverseNth37_37  . . . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testReverseNth37_4_memory (asan) [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testReverseNthEmpty (asan) . . . [1 pts]  - passed
+testWaterfall4_size  . . . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testWaterfall4_forward . . . . . [1 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testWaterfall4_backward  . . . . [2 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testWaterfall7_size  . . . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testWaterfall7_forward . . . . . [1 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testWaterfall7_backward  . . . . [2 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testWaterfall12_size . . . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testWaterfall12_forward  . . . . [1 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testWaterfall12_backward . . . . [2 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testWaterfall7_memory (asan) . . [3 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testWaterfall7_empty (asan)  . . [3 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testSplit5_this_size . . . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testSplit5_this_forward  . . . . [1 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testSplit5_this_backward . . . . [1 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testSplit5_split_size  . . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testSplit5_split_forward . . . . [1 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testSplit5_split_backward  . . . [1 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testSplit5_mem (asan)  . . . . . [3 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testMerge_size . . . . . . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testMerge_forward  . . . . . . . [1 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testMerge_backward . . . . . . . [1 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testMerge_mem (asan) . . . . . . [3 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testSort16p_s  . . . . . . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testSort16p_f  . . . . . . . . . [2 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testSort16p_b  . . . . . . . . . [2 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testSort20p_s  . . . . . . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testSort20p_f  . . . . . . . . . [2 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testSort20p_b  . . . . . . . . . [2 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testSort27p_s  . . . . . . . . . [1 pts]  - FAILED: unit_tests.cpp:113: List does not match solution's size
+testSort27p_f  . . . . . . . . . [2 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testSort27p_b  . . . . . . . . . [2 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testSortEmpty  . . . . . . . . . [5 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testSort259p_s . . . . . . . . . [1 pts]  - FAILED: unit_tests.cpp:511: insertBack did not insert all values
+testSort259p_f . . . . . . . . . [2 pts]  - FAILED: unit_tests.cpp:511: insertBack did not insert all values
+testSort259p_b . . . . . . . . . [2 pts]  - FAILED: unit_tests.cpp:511: insertBack did not insert all values
+testSortMemLeak (asan) . . . . . [5 pts]  - FAILED: unit_tests.cpp:511: insertBack did not insert all values
+testSortNlogN  . . . . . . . . . [10 pts] - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+
+
+Total score...
+================================================================
+TOTAL SCORE: 1
+
+
+
+Detailed test output...
+================================================================
+----------------------------------------------------------------
+testInsertFront [2 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testInsertBack [2 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testDestructor10 (run under asan) [3 points]
+Result: FAILED: Memory errors detected by ASAN
+Took unknown time (2000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testDestructor10 [worth 3 points, output below]
+< >
+
+=================================================================
+==22173==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x41f97b in operator new(unsigned long) /dev/shm/225/lm35/src/llvm/projects/compiler-rt/lib/asan/asan_new_delete.cc:62:35
+    #1 0x64c461 in proxy_test::testDestructor10(util::sizedpipestream<512ul>&) (/dev/shm/cs225student/autograder/monad/monad/mp3_grade/proxy-asan+0x64c461)
+    #2 0x4ec088 in monad_shared::unit_test_input::execute(util::sizedpipestream<512ul>&) const (/dev/shm/cs225student/autograder/monad/monad/mp3_grade/proxy-asan+0x4ec088)
+    #3 0x4d11d3 in proxy::test_execution::child_test() (/dev/shm/cs225student/autograder/monad/monad/mp3_grade/proxy-asan+0x4d11d3)
+    #4 0x4c225c in proxy::test_execution::child() (/dev/shm/cs225student/autograder/monad/monad/mp3_grade/proxy-asan+0x4c225c)
+    #5 0x4bc8d2 in proxy::RunTests::run_single_test(monad_shared::unit_test_input const&) (/dev/shm/cs225student/autograder/monad/monad/mp3_grade/proxy-asan+0x4bc8d2)
+    #6 0x4b2597 in proxy::RunTests::run_single_test(char const*) (/dev/shm/cs225student/autograder/monad/monad/mp3_grade/proxy-asan+0x4b2597)
+    #7 0x4b1737 in proxy::RunTests::execute_by_mode() (/dev/shm/cs225student/autograder/monad/monad/mp3_grade/proxy-asan+0x4b1737)
+    #8 0x4ade99 in proxy::RunTests::execute() (/dev/shm/cs225student/autograder/monad/monad/mp3_grade/proxy-asan+0x4ade99)
+    #9 0x4ab7ee in main (/dev/shm/cs225student/autograder/monad/monad/mp3_grade/proxy-asan+0x4ab7ee)
+    #10 0x7fe5dd1eab34 in __libc_start_main (/lib64/libc.so.6+0x21b34)
+
+SUMMARY: AddressSanitizer: 24 byte(s) leaked in 1 allocation(s).
+Result: FAILED:
+Memory Leaks Detected by ASAN
+
+----------------------------------------------------------------
+testDestructor37 (run under asan) [3 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took unknown time (2000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testDestructor37 [worth 3 points, output below]
+< >
+Result: FAILED:
+unit_tests.cpp:113: List does not match solution's size
+
+----------------------------------------------------------------
+testReverse20_size [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverse20_forward [1 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverse20_backward [1 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverse37_size [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverse37_forward [1 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverse37_backward [1 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverseEmpty (run under asan) [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took unknown time (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testReverseEmpty [worth 1 points, output below]
+< >
+Result: FAILED:
+unit_tests.cpp:113: List does not match solution's size
+
+----------------------------------------------------------------
+testReverse20_memory (run under asan) [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took unknown time (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testReverse20_memory [worth 1 points, output below]
+< >
+Result: FAILED:
+unit_tests.cpp:113: List does not match solution's size
+
+----------------------------------------------------------------
+testReverseNth20_2_size [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverseNth20_2_forward [1 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverseNth20_2_backward [1 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverseNth37_4_size [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverseNth37_4_forward [1 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverseNth37_4_backward [1 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverseNth37_37 [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testReverseNth37_4_memory (run under asan) [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took unknown time (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testReverseNth37_4_memory [worth 1 points, output below]
+< >
+Result: FAILED:
+unit_tests.cpp:113: List does not match solution's size
+
+----------------------------------------------------------------
+testWaterfall4_size [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testWaterfall4_forward [1 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testWaterfall4_backward [2 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testWaterfall7_size [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testWaterfall7_forward [1 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testWaterfall7_backward [2 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testWaterfall12_size [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testWaterfall12_forward [1 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testWaterfall12_backward [2 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testWaterfall7_memory (run under asan) [3 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took unknown time (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testWaterfall7_memory [worth 3 points, output below]
+< >
+Result: FAILED:
+unit_tests.cpp:113: List does not match solution's size
+
+----------------------------------------------------------------
+testWaterfall7_empty (run under asan) [3 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took unknown time (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testWaterfall7_empty [worth 3 points, output below]
+< >
+Result: FAILED:
+unit_tests.cpp:113: List does not match solution's size
+
+----------------------------------------------------------------
+testSplit5_this_size [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSplit5_this_forward [1 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSplit5_this_backward [1 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSplit5_split_size [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSplit5_split_forward [1 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSplit5_split_backward [1 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSplit5_mem (run under asan) [3 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took unknown time (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testSplit5_mem [worth 3 points, output below]
+< >
+Result: FAILED:
+unit_tests.cpp:113: List does not match solution's size
+
+----------------------------------------------------------------
+testMerge_size [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testMerge_forward [1 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testMerge_backward [1 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testMerge_mem (run under asan) [3 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took unknown time (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testMerge_mem [worth 3 points, output below]
+< >
+Result: FAILED:
+unit_tests.cpp:113: List does not match solution's size
+
+----------------------------------------------------------------
+testSort16p_s [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSort16p_f [2 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSort16p_b [2 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSort20p_s [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSort20p_f [2 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSort20p_b [2 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSort27p_s [1 points]
+Result: FAILED: unit_tests.cpp:113: List does not match solution's size
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSort27p_f [2 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSort27p_b [2 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSortEmpty [5 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+----------------------------------------------------------------
+testSort259p_s [1 points]
+Result: FAILED: unit_tests.cpp:511: insertBack did not insert all values
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+testSort259p_f [2 points]
+Result: FAILED: unit_tests.cpp:511: insertBack did not insert all values
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+testSort259p_b [2 points]
+Result: FAILED: unit_tests.cpp:511: insertBack did not insert all values
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+testSortMemLeak (run under asan) [5 points]
+Result: FAILED: unit_tests.cpp:511: insertBack did not insert all values
+Took unknown time (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testSortMemLeak [worth 5 points, output below]
+Result: FAILED:
+unit_tests.cpp:511: insertBack did not insert all values
+
+----------------------------------------------------------------
+testSortNlogN [10 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (20000ms timeout)
+Output:
+----------------------------------------------------------------
+< >
+
+
+----------------------------------------------------------------
+Total score...
+================================================================
+TOTAL SCORE: 1
+

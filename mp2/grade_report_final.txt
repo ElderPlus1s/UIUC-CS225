@@ -1,0 +1,8 @@
+Grading r12676 by enx-cs225autograder committed on Fri Feb 10 00:36:35 CST 2017
+Monad Autograder
+Testing mp2 at 2017-02-11 00:20:57
+
+"The slogan of Subversion for a while was "CVS done right", or something like that, and if you start with that kind of slogan, there's nowhere you can go. There is no way to do CVS right." ~ Linus Torvalds
+
+Setting up test environment...
+Error: /dev/shm/cs225student/autograder/temp/mp2/scene.h does not exist.

@@ -1,0 +1,24 @@
+Grading r48508 by hxie13 committed on Fri Apr 21 20:36:49 CDT 2017
+Monad Autograder
+Testing mp7.1 at 2017-04-22 00:22:37
+
+"Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. Code for readability." ~ John Woods
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+addElements1 . . . . [20 pts] - passed
+addElements2 . . . . [20 pts] - passed
+testFindAndSetUnion1 [20 pts] - passed
+testFindAndSetUnion2 [20 pts] - passed
+testFindAndSetUnion3 [20 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+
